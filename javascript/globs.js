@@ -14,6 +14,14 @@ function fetchrestOrder(ide)
                   if(res[0][0] != "None")
                   {
 					  table = '<table border="1">';
+					  table += "<tr> Items Ordered </tr> "
+					  table += "<tr>";
+					  table += "<td> Vegetable </td>";
+					  table += "<td> Sea Food </td>";
+					  table += "<td> Type of Rice </td>";
+					  table += "<td> Beverages </td>";
+					  table += "<td> Dessert </td>";
+					  table += "</tr>";
 					  for (i = 0; i < res.length; i++)
 					  {
 						  row = res[i];
