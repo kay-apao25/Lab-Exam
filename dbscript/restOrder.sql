@@ -85,3 +85,9 @@ begin
   end;
 $$
     language 'plpgsql';
+	
+--Sample Table:
+-- 1;"Chopsuey";"Camaroon";"Fried Rice";"Iced Tea";"Mango Float"
+-- 2;"Amplaya Salad";"Camaroon";"Fried Rice";"Coke";"Leche Flan"
+-- 3;"Lettuce Salad";"Escabeche";"Plain Rice";"Mango Shake";"Leche Flan"
+
