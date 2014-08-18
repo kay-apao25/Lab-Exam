@@ -31,9 +31,3 @@ class doSql(object):
             errmsg =  str(sys.exc_info()[1])
             rows.append([errmsg])
         return rows    
-
-    
-#a = doSql()
-#f = a.execqry("select insupattendance('1321', 'CENG1-LEC', getcurrsem(), now()::timestamp without time zone, true)")[0][0] 
-#print f
-#del a
