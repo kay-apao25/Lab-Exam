@@ -2,7 +2,7 @@ var siteloc = "http://localhost/Lab-Exam";
 var scriptloc = "/scripts/"
 
  
-function fetchEvent(ide)
+function fetchrestOrder(ide)
 {
   $.ajax({
       url: siteloc + scriptloc + "restOrder.py",
